@@ -29,3 +29,17 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Oswald Font
+Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL 
+License URL: https://scripts.sil.org/OFL 
+Source: http://www.sansoxygen.com
+-- End of Oswald Font credits --
+
+PT Sans Font
+Copyright © 2009 ParaType Ltd. All rights reserved. 
+Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public), with Reserved Font Names "PT Sans", "PT Serif" and "ParaType". 
+License URL: http://scripts.sil.org/OFL_web 
+Source: http://www.paratype.com
+-- End of PT Sans Font credits --
