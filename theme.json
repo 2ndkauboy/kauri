@@ -2,6 +2,158 @@
 	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
+				},
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				},
+				{
+					"slug": "grey",
+					"color": "#909090",
+					"name": "Grey"
+				},
+				{
+					"slug": "red",
+					"color": "#F55243",
+					"name": "Red"
+				},
+
+				{
+					"slug": "background-primary",
+					"color": "#ffffff",
+					"name": "Background Primary"
+				},
+				{
+					"slug": "background-secondary",
+					"color": "#f6f6f6",
+					"name": "Background Secondary"
+				},
+				{
+					"slug": "background-tertiary",
+					"color": "#b3b4ae",
+					"name": "Background Tertiary"
+				},
+				{
+					"slug": "background-quarternary",
+					"color": "#909090",
+					"name": "Background Quartenary"
+				},
+
+				{
+					"slug": "font-primary",
+					"color": "#333333",
+					"name": "Text Primary"
+				},
+				{
+					"slug": "font-secondary",
+					"color": "#4c4a4a",
+					"name": "Text Secondary"
+				},
+
+				{
+					"slug": "primary",
+					"color": "#f55243",
+					"name": "Brand Primary"
+				},
+
+				{
+					"slug": "border-primary",
+					"color": "#ececec",
+					"name": "Border Primary"
+				},
+				{
+					"slug": "border-secondary",
+					"color": "#dddddd",
+					"name": "Border Secondary"
+				},
+
+				{
+					"slug": "input-background",
+					"color": "#ffffff",
+					"name": "Input Background"
+				},
+				{
+					"slug": "input-background-hover",
+					"color": "#fcfcfc",
+					"name": "Input Background Hover"
+				},
+				{
+					"slug": "input-border",
+					"color": "#999999",
+					"name": "Input Border"
+				},
+
+				{
+					"slug": "social-icons-background",
+					"color": "#b3b4ae",
+					"name": "Social Icons Background"
+				},
+				{
+					"slug": "social-icons-background-hover",
+					"color": "#333333",
+					"name": "Social Icons Background Hover"
+				},
+
+				{
+					"slug": "red-btn-box",
+					"color": "#e22727",
+					"name": "Red Button & Box"
+				},
+				{
+					"slug": "green-btn-box",
+					"color": "#71b247",
+					"name": "Green Button & Box"
+				},
+				{
+					"slug": "blue-btn-box",
+					"color": "#56b3b7",
+					"name": "Blue Button & Box"
+				},
+				{
+					"slug": "yellow-btn",
+					"color": "#f9d93a",
+					"name": "Yellow Button"
+				},
+				{
+					"slug": "yellow-box",
+					"color": "#f7ec69",
+					"name": "Yellow Box"
+				},
+				{
+					"slug": "white-box",
+					"color": "#fff",
+					"name": "White Box"
+				},
+				{
+					"slug": "lightgrey-box",
+					"color": "#f6f6f6",
+					"name": "Lightgrey Box"
+				},
+				{
+					"slug": "grey-btn-box",
+					"color": "#d3d3d3",
+					"name": "Grey Button & Box"
+				},
+				{
+					"slug": "dark-box",
+					"color": "#333",
+					"name": "Dark Box"
+				},
+				{
+					"slug": "black-btn",
+					"color": "#000",
+					"name": "Black Button"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
