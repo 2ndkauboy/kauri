@@ -302,6 +302,11 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
+		},
+		{
+			"area": "uncategorized",
+			"name": "header-widget-area",
+			"title": "Header Widget Area"
 		}
 	],
 	"version": 2,
