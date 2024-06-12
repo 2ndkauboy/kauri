@@ -1,5 +1,20 @@
+header {
+    justify-content: space-between;
+}
+
 header .wp-block-home-link {
     margin-right: -20px;
+}
+
+header .wp-block-home-link a {
+    background-image: url('../images/home.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px 17px;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999rem;
+    opacity: .75;
 }
 
 header .wp-block-search * {
