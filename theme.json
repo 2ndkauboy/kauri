@@ -278,6 +278,26 @@
 		"blocks": {
 			"core/home-link": {
 				"css": "background-image: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"170\"><path fill=\"%23fff\" d=\"M89.98 0 0 94.064h25.32V170h43.12v-42.157h43.12V170h43.12V94.102H180Z\"/></svg>');\nbackground-position: left center;\nbackground-repeat: no-repeat;\nbackground-size: 18px 17px;\nheight: 60px;\nwidth: 40px;\ntext-indent: -9999rem;\nopacity: .75;"
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "1.1rem",
+					"lineHeight": "1.1"
+				}
+			},
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"typography": {
+					"fontSize": "3.2rem",
+					"fontWeight": "400",
+					"lineHeight": "1"
+				}
 			}
 		},
 		"elements": {
