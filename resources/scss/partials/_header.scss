@@ -1,0 +1,23 @@
+header {
+  justify-content: space-between;
+
+  .wp-block-home-link {
+    margin-right: -20px;
+
+    a {
+      background-image: url('../images/home.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 17px 16px;
+      height: 40px;
+      width: 40px;
+      text-indent: -9999rem;
+      opacity: .75;
+    }
+  }
+
+  .wp-block-social-link:hover {
+    transform: none;
+    background-color: var(--wp--preset--color--social-icons-background-hover);
+  }
+}
