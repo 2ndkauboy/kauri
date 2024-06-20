@@ -45,6 +45,7 @@ header {
 
           svg {
             fill: #afafaf;
+            stroke: #afafaf;
           }
         }
       }
@@ -70,6 +71,9 @@ header {
 
       svg {
         fill: rgba(255, 255, 255, 0.75);
+        stroke: rgba(255, 255, 255, 0.75);
+        stroke-opacity: .75;
+        stroke-width: 1px;
         transform: scaleX(-1);
       }
     }
