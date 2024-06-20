@@ -1,0 +1,34 @@
+aside.wp-block-template-part {
+  h3 {
+    padding: 0 0 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+
+  ol, ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-bottom: 10px;
+      list-style: none;
+      line-height: 1.35;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--wp--preset--color--primary);
+
+    &:hover {
+      color: var(--wp--preset--color--background-quarternary);
+    }
+  }
+
+  .wp-block-latest-comments__comment {
+    margin-bottom: 0;
+  }
+}
