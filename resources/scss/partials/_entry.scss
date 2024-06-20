@@ -1,0 +1,22 @@
+.entry-details {
+  a {
+    text-decoration: none;
+  }
+
+  > :not(:first-child)::before {
+    display: inline-block;
+    content: "\00b7";
+    width: 15px;
+    text-align: center;
+  }
+}
+
+.entry-meta {
+  a {
+    text-decoration: none;
+  }
+}
+
+.wp-block-query .wp-block-post-template hr {
+  border-width: 1px;
+}
