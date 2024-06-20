@@ -96,7 +96,7 @@
 				},
 				{
 					"color": "#ffffff",
-					"name": "Social Icons hover",
+					"name": "Social Icons Hover",
 					"slug": "social-icons-hover"
 				},
 				{
@@ -108,6 +108,26 @@
 					"color": "#333333",
 					"name": "Social Icons Background Hover",
 					"slug": "social-icons-background-hover"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.75)",
+					"name": "Search Placeholder/Icon",
+					"slug": "search"
+				},
+				{
+					"color": "#afafaf",
+					"name": "Search Placeholder/Icon Hover",
+					"slug": "search-hover"
+				},
+				{
+					"color": "transparent",
+					"name": "Search Input Background",
+					"slug": "search-background"
+				},
+				{
+					"color": "#fff",
+					"name": "Search Input Background Hover",
+					"slug": "search-background-hover"
 				},
 				{
 					"color": "#e22727",

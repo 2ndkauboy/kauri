@@ -32,11 +32,11 @@ header {
         width: 226px;
 
         input {
-          background: white;
-          color: #afafaf;
+          background: var(--wp--preset--color--search-background-hover);
+          color: var(--wp--preset--color--search-hover);
 
           &::placeholder {
-            color: #afafaf;
+            color: var(--wp--preset--color--search-hover);
           }
         }
 
@@ -44,21 +44,21 @@ header {
           background-color: white;
 
           svg {
-            fill: #afafaf;
-            stroke: #afafaf;
+            fill: var(--wp--preset--color--search-hover);
+            stroke: var(--wp--preset--color--search-hover);
           }
         }
       }
     }
 
     input {
-      background: transparent;
+      background: var(--wp--preset--color--search-background);
       border-radius: 0 6px 6px 0;
       font-size: 1.05em;
-      color: rgba(255, 255, 255, 0.75);
+      color: var(--wp--preset--color--search);
 
       &::placeholder {
-        color: rgba(255, 255, 255, 0.75);
+        color: var(--wp--preset--color--search);
       }
     }
 
@@ -67,15 +67,20 @@ header {
       padding: 0 0 0 .5rem;
       margin: 0;
       border-radius: 6px 0 0 6px;
-      background: transparent;
+      background: var(--wp--preset--color--search-background);
 
       svg {
-        fill: rgba(255, 255, 255, 0.75);
-        stroke: rgba(255, 255, 255, 0.75);
+        fill: var(--wp--preset--color--search);
+        stroke: var(--wp--preset--color--search);
         stroke-opacity: .75;
         stroke-width: 1px;
         transform: scaleX(-1);
       }
     }
+  }
+
+  .wp-block-social-link:hover {
+    transform: none;
+    background-color: var(--wp--preset--color--social-icons-background-hover);
   }
 }
