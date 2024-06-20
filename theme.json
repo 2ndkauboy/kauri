@@ -111,23 +111,23 @@
 				},
 				{
 					"color": "rgba(255, 255, 255, 0.75)",
-					"name": "Search Placeholder/Icon",
-					"slug": "search"
+					"name": "Header Search Placeholder/Icon",
+					"slug": "header-search"
 				},
 				{
 					"color": "#afafaf",
-					"name": "Search Placeholder/Icon Hover",
-					"slug": "search-hover"
+					"name": "Header Search Placeholder/Icon Hover",
+					"slug": "header-search-hover"
 				},
 				{
 					"color": "transparent",
-					"name": "Search Input Background",
-					"slug": "search-background"
+					"name": "Header Search Input Background",
+					"slug": "header-search-background"
 				},
 				{
 					"color": "#fff",
-					"name": "Search Input Background Hover",
-					"slug": "search-background-hover"
+					"name": "Header Search Input Background Hover",
+					"slug": "header-search-background-hover"
 				},
 				{
 					"color": "#e22727",
