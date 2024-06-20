@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "wp-scripts build --webpack-src-dir=resources --output-path=public",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start --webpack-src-dir=resources --output-path=public"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^28.1.0"
+  }
+}

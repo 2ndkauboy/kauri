@@ -1,0 +1,79 @@
+header {
+  justify-content: space-between;
+
+  .wp-block-home-link {
+    margin-right: -20px;
+
+    a {
+      background-image: url('../images/home.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 18px 17px;
+      height: 40px;
+      width: 40px;
+      text-indent: -9999rem;
+      opacity: .75;
+    }
+  }
+
+  .wp-block-search {
+    * {
+      transition: all 0.4s ease;
+    }
+
+    .wp-block-search__inside-wrapper {
+      border: 0 none;
+      padding: 0;
+      flex-direction: row-reverse;
+      height: 35px;
+      width: 107px;
+
+      &:focus-within {
+        width: 226px;
+
+        input {
+          background: white;
+          color: #afafaf;
+
+          &::placeholder {
+            color: #afafaf;
+          }
+        }
+
+        .wp-block-search__button.has-icon {
+          background-color: white;
+
+          svg {
+            fill: #afafaf;
+          }
+        }
+      }
+    }
+
+    input {
+      background: transparent;
+      border-radius: 0 6px 6px 0;
+      font-size: 1.05em;
+      color: rgba(255, 255, 255, 0.75);
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
+
+
+    .wp-block-search__button.has-icon {
+      padding: 0 0 0 .5rem;
+      margin: 0;
+      border-radius: 6px 0 0 6px;
+      background: transparent;
+
+      svg {
+        fill: rgba(255, 255, 255, 0.75);
+        transform: scaleX(-1);
+      }
+    }
+  }
+}
+
+

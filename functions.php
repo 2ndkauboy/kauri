@@ -9,29 +9,54 @@
  */
 
 /**
- * Enqueue style.css file.
+ * Load front-end assets.
  */
-if ( ! function_exists( 'kauri_styles' ) ) :
+function kauri_assets() {
+	$asset = include get_theme_file_path( 'public/css/screen.asset.php' );
 
-	/**
-	 * Enqueue styles.
-	 *
-	 * @return void
-	 */
-	function kauri_styles() {
+	wp_enqueue_style(
+		'kauri-style',
+		get_theme_file_uri( 'public/css/screen.css' ),
+		$asset['dependencies'],
+		$asset['version']
+	);
+}
 
-		// Register theme stylesheet.
-		wp_register_style(
-			'kauri-style',
-			get_stylesheet_directory_uri() . '/assets/css/style.css',
-			array(),
-			wp_get_theme()->get( 'Version' )
-		);
+add_action( 'wp_enqueue_scripts', 'kauri_assets' );
 
-		// Enqueue theme stylesheet.
-		wp_enqueue_style( 'kauri-style' );
-	}
 
-endif;
+/**
+ * Load editor stylesheets.
+ */
+function kauri_editor_styles() {
+	add_editor_style( [
+		get_theme_file_uri( 'public/css/screen.css' )
+	] );
+}
 
-add_action( 'wp_enqueue_scripts', 'kauri_styles' );
+add_action( 'after_setup_theme', 'kauri_editor_styles' );
+
+/**
+ * Load editor scripts.
+ */
+function kauri_editor_assets() {
+	$script_asset = include get_theme_file_path( 'public/js/editor.asset.php' );
+	$style_asset  = include get_theme_file_path( 'public/css/editor.asset.php' );
+
+	wp_enqueue_script(
+		'kauri-editor',
+		get_theme_file_uri( 'public/js/editor.js' ),
+		$script_asset['dependencies'],
+		$script_asset['version'],
+		true
+	);
+
+	wp_enqueue_style(
+		'kauri-editor',
+		get_theme_file_uri( 'public/css/editor.css' ),
+		$style_asset['dependencies'],
+		$style_asset['version']
+	);
+}
+
+add_action( 'enqueue_block_editor_assets', 'kauri_editor_assets' );
