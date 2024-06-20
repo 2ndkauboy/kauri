@@ -85,6 +85,21 @@
 					"slug": "input-border"
 				},
 				{
+					"color": "rgba(255, 255, 255, 0.75)",
+					"name": "Header Navigation Items",
+					"slug": "header-navigation-items"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Social Icons",
+					"slug": "social-icons"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Social Icons hover",
+					"slug": "social-icons-hover"
+				},
+				{
 					"color": "#b3b4ae",
 					"name": "Social Icons Background",
 					"slug": "social-icons-background"
