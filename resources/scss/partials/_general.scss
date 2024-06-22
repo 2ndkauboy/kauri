@@ -73,7 +73,23 @@ a {
     }
   }
 
-  .wp-block-table {
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 1.782rem;
+
+    th, td {
+      padding: 0.625rem 0.75rem;
+      border: 1px solid #ececec;
+      text-align: left;
+    }
+
+    th {
+      font-weight: bold;
+    }
+  }
+
+  .wp-block-table table {
     font-size: 1rem;
     line-height: normal;
 
@@ -81,9 +97,12 @@ a {
       vertical-align: baseline;
     }
 
+    td, th {
+      border-color: var(--wp--preset--color--font-primary);
+    }
+
     th {
       font-weight: bold;
-      text-align: left;
     }
   }
 
@@ -120,5 +139,18 @@ a {
     font-family: "Courier 10 Pitch", Courier, monospace;
     font-size: 0.9375rem;
     line-height: 1.6;
+  }
+
+  dl dt {
+    font-size: 1.045rem;
+    color: var(--wp--preset--color--font-secondary);
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+  dl dd {
+    margin: 0 0 1.875rem 0;
+    font-size: 1.045rem;
+    line-height: 1.4;
   }
 }

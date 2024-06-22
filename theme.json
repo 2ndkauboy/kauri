@@ -412,7 +412,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "0.89rem",
+					"fontSize": "1rem",
 					"lineHeight": "1.8"
 				}
 			},

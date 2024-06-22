@@ -7,7 +7,9 @@
   margin: 0;
 
   p {
-    margin: 0 0 17px;
+    font-size: 1.045rem;
+    line-height: 1.8;
+    margin: 0 0 1.0625rem;
   }
 
   h1 {
@@ -39,5 +41,55 @@
     margin: 0.363rem 0 0.363rem;
     font-size: 1.21rem;
     line-height: 1.8;
+  }
+
+  blockquote {
+    padding: 0 0 0 0.9375rem;
+    background: none;
+    border-left: 1px solid var(--wp--preset--color--input-border);
+
+    p {
+      margin: 0;
+      font-size: 1.045rem;
+      font-style: italic;
+      line-height: 1.5 !important;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  ul, ol {
+    font-size: 1.045rem;
+    margin: 0 0 30px 22px;
+    padding: 0;
+    line-height: 1.8;
+  }
+
+  ol li {
+    list-style-type: decimal;
+  }
+
+  ul li {
+    list-style-type: square;
+  }
+
+  address {
+    padding: 0 0 1.875rem;
+    line-height: 1.7;
+  }
+
+  code {
+    font-size: 1rem;
+  }
+
+  pre {
+    font-size: 1.265rem;
+    line-height: 1.6445rem;
+  }
+
+  + .wp-block-separator {
+    border-bottom-color: var(--wp--preset--color--border-primary);
   }
 }
