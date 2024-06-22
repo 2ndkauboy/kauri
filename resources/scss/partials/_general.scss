@@ -2,12 +2,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--wp--preset--color--font-secondary);
 }
 
-a {
-  color: var(--wp--preset--color--font-tertiary);
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
 .entry-content {
   a {
     text-decoration: underline;
@@ -19,13 +13,112 @@ a {
     line-height: 1.8;
   }
 
-  li {
+  ul li {
     list-style-type: square;
   }
 
   p {
     margin: 0 0 30px;
+    line-height: 1.6;
+
+    a {
+      text-decoration: underline;
+    }
   }
 }
 
 
+// @todo: Replace with `theme.json` settings, when `.wp-block-post-content-is-layout-flow > *` doesn't apply anymore.
+a {
+  color: var(--wp--preset--color--primary);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+:root {
+  h1 {
+    margin: 4rem 0 3.2rem;
+  }
+
+  h2 {
+    margin: 2.38rem 0 1.02rem;
+  }
+
+  h3 {
+    margin: 2.08rem 0 0.96rem;
+  }
+
+  h4 {
+    margin: 1.54rem 0 0.7rem;
+  }
+
+  h5 {
+    margin: 1.08rem 0 1.08rem;
+  }
+
+  h6 {
+    margin: 0.77rem 0 0.77rem;
+  }
+
+  blockquote {
+    margin: 0 0 1.875rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.875rem;
+    border-left: 6px solid var(--wp--preset--color--font-primary);
+
+    p {
+      font-size: 1.1875rem;
+      line-height: 1.78125rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .wp-block-table {
+    font-size: 1rem;
+    line-height: normal;
+
+    tr {
+      vertical-align: baseline;
+    }
+
+    th {
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+
+  li ul,
+  li ol {
+    margin-bottom: 0;
+  }
+
+  code {
+    font-size: 1.12125rem;
+  }
+
+  .wp-block-separator {
+    border: none;
+    border-bottom: 1px solid var(--wp--preset--color--font-primary);
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  ins {
+    background: #ffffcc;
+    text-decoration: none;
+  }
+
+  kbd {
+    font-size: 0.975rem;
+  }
+
+  pre {
+    margin-bottom: 1.875rem;
+    padding: 0.9375rem;
+    overflow: auto;
+    background: #f8f8f8;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+}
