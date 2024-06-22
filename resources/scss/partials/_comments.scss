@@ -2,10 +2,42 @@
 .skip-to-reply a {
   text-decoration: none;
 }
+
 .wp-block-comment-content {
   margin: 0;
-}
 
-.comment-content p {
-  margin: 0 0 17px;
+  p {
+    margin: 0 0 17px;
+  }
+
+  h1 {
+    margin: 1.76rem 0 1.056rem;
+    font-size: 1.76rem;
+    line-height: 1.8;
+  }
+
+  h2 {
+    margin: 1.54rem 0 0.924rem;
+    font-size: 1.54rem;
+    line-height: 1.8;
+  }
+
+  h3 {
+    margin: 0.858rem 0 0.572rem;
+    font-size: 1.43rem;
+    line-height: 1.8;
+  }
+
+  h4 {
+    margin: 0.66rem 0 0.396rem;
+    font-size: 1.32rem;
+    line-height: 1.8;
+  }
+
+  h5,
+  h6 {
+    margin: 0.363rem 0 0.363rem;
+    font-size: 1.21rem;
+    line-height: 1.8;
+  }
 }

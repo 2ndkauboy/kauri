@@ -344,12 +344,39 @@
 				}
 			},
 			"core/comment-date": {
+				"color": {
+					"text": "var(--wp--preset--color--grey)"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--font-secondary)"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--grey)"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "0.89rem",
 					"lineHeight": "1.8"
 				}
 			},
 			"core/comment-edit-link": {
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--font-secondary)"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--grey)"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "0.89rem",
 					"lineHeight": "1.8"
@@ -440,7 +467,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "1.1rem",
+					"fontSize": "1.2rem",
 					"lineHeight": "1"
 				}
 			},

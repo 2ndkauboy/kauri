@@ -16,7 +16,7 @@
 <!-- /wp:group -->
 
 <!-- wp:comment-template -->
-<!-- wp:columns -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"20px"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"60px"} -->
 <div class="wp-block-column" style="flex-basis:60px"><!-- wp:avatar {"size":60,"style":{"border":{"radius":"30px"}}} /--></div>
 <!-- /wp:column -->
@@ -26,7 +26,7 @@
 <div class="wp-block-group comment-meta" style="min-height:60px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"blockGap":"var:preset|spacing|30"},"dimensions":{"minHeight":""}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","verticalAlignment":"center","orientation":"horizontal"}} -->
 <div class="wp-block-group" style="margin-top:0px;margin-bottom:0px"><!-- wp:comment-author-name {"style":{"elements":{"link":{"color":{"text":"var:preset|color|red"},":hover":{"color":{"text":"var:preset|color|grey"}}}}}} /-->
 
-<!-- wp:comment-date {"format":"d.m.y @ g:i a"} /-->
+<!-- wp:comment-date {"format":null} /-->
 
 <!-- wp:comment-edit-link /--></div>
 <!-- /wp:group -->
