@@ -426,6 +426,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--font-primary)"
 				},
+				"css": "",
 				"elements": {
 					"link": {
 						":hover": {
