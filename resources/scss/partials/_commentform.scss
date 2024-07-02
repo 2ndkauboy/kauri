@@ -1,0 +1,75 @@
+.wp-block-comments h3 {
+  font-family: var(--wp--preset--font-family--pt-sans), sans-serif;
+  font-size: 1.7rem;
+}
+
+.comment-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 10px;
+
+  > p {
+    grid-column: 1 / 4;
+    margin: 0;
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .comment-form-author {
+    grid-column: 1 / 2;
+  }
+
+  .comment-form-email {
+    grid-column: 2 / 3;
+  }
+
+  .comment-form-url {
+    grid-column: 3 / 4;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  textarea {
+    margin: 6px 0 0;
+    padding: 10px;
+    background: var(--wp--preset--color--background-secondary);
+    border: 1px solid var(--wp--preset--color--border-primary);
+    font-family: var(--wp--preset--font-family--pt-sans), sans-serif;
+    font-size: 1.05em;
+    color: var(--wp--preset--color--font-primary);
+    border-radius: 6px;
+    transition: all 0.18s ease-in-out;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="url"] {
+    display: block;
+    width: 96%;
+  }
+
+  textarea {
+    width: 92%;
+    line-height: 1.6;
+  }
+
+  textarea,
+  input[type="text"],
+  input[type="email"],
+  input[type="url"] {
+    &:hover,
+    &:focus,
+    &:active {
+      background: var(--wp--preset--color--input-background-hover);
+      border: 1px solid var(--wp--preset--color--border-secondary);
+      box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  input[type="submit"] {
+    font-size: 1.1rem;
+    line-height: normal;
+    padding: 14px 25px;
+  }
+}
