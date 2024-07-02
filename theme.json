@@ -551,6 +551,7 @@
 				},
 				"typography": {
 					"fontSize": "2rem",
+					"lineHeight": 1.4,
 					"textDecoration": "none"
 				}
 			},
