@@ -504,6 +504,30 @@
 					"lineHeight": "1.6"
 				}
 			},
+			"core/post-navigation-link": {
+				"border": {
+					"radius": "6px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--grey)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--white)"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.4375rem",
+						"left": "0.75rem",
+						"right": "0.75rem",
+						"top": "0.4375rem"
+					}
+				}
+			},
 			"core/post-terms": {
 				"typography": {
 					"lineHeight": "1.8"
