@@ -1,0 +1,10 @@
+footer.wp-block-template-part {
+  p {
+    font-size: 0.93rem;
+    color: var(--wp--preset--color--font-tertiary);
+  }
+
+  a:hover {
+    color: var(--wp--preset--color--font-primary);
+  }
+}
