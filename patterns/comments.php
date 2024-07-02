@@ -8,7 +8,7 @@
 ?>
 <!-- wp:comments -->
 <div class="wp-block-comments"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
-<div class="wp-block-group"><!-- wp:comments-title {"showPostTitle":false} /-->
+<div class="wp-block-group"><!-- wp:comments-title {"showPostTitle":false,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} /-->
 
 <!-- wp:paragraph {"className":"skip-to-reply","style":{"elements":{"link":{"color":{"text":"var:preset|color|grey"}}}},"textColor":"grey"} -->
 <p class="skip-to-reply has-grey-color has-text-color has-link-color"><?php echo __('<a href="#reply-title" data-type="internal" data-id="#reply-title">» Write a comment</a>', 'kauri');?></p>

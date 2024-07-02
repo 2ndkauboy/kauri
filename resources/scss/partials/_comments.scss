@@ -3,6 +3,15 @@
   text-decoration: none;
 }
 
+.skip-to-reply {
+  // hide by default.
+  display: none;
+  // only show, when preceded by comments title.
+  .wp-block-comments-title + & {
+    display: unset;
+  }
+}
+
 .wp-block-comment-content {
   margin: 0;
 
