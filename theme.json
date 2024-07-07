@@ -518,14 +518,6 @@
 							"text": "var(--wp--preset--color--white)"
 						}
 					}
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "0.4375rem",
-						"left": "0.75rem",
-						"right": "0.75rem",
-						"top": "0.4375rem"
-					}
 				}
 			},
 			"core/post-terms": {

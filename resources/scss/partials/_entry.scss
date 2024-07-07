@@ -28,6 +28,11 @@
 .wp-block-post-navigation-link {
   transition: all 0.2s ease-in-out;
   position: relative;
+  max-width: fit-content;
+
+  &:has(a) {
+    padding: 0.4375rem 0.75rem;
+  }
 
   &:hover {
     background-color: var(--wp--preset--color--font-primary);
