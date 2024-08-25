@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}},"layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","bottom":"30px"},"blockGap":"0"},"elements":{"link":{"color":{"text":"var:preset|color|grey"}}}},"textColor":"grey","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","bottom":"30px"},"blockGap":"var:preset|spacing|20"},"elements":{"link":{"color":{"text":"var:preset|color|grey"}}}},"textColor":"grey","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group has-grey-color has-text-color has-link-color" style="padding-top:80px;padding-bottom:30px"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 			<p>&copy; <?php echo date( 'Y' ); ?>&nbsp;</p>
