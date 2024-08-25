@@ -202,6 +202,7 @@
 		},
 		"typography": {
 			"customFontSize": true,
+			"defaultFontSizes": false,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
@@ -343,6 +344,26 @@
 				{
 					"size": "2rem",
 					"slug": "5-xl"
+				},
+				{
+					"name": "Small",
+					"size": "15px",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "20px",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "22px",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "42px",
+					"slug": "x-large"
 				}
 			]
 		},
