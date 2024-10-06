@@ -518,7 +518,10 @@
 			},
 			"core/post-content": {
 				"spacing": {
-					"blockGap": "30px"
+					"blockGap": "30px",
+					"padding": {
+						"bottom": "30px"
+					}
 				},
 				"typography": {
 					"fontSize": "1.2rem",
