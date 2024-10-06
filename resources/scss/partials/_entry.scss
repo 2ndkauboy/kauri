@@ -17,12 +17,13 @@
   }
 }
 
-.wp-block-query .wp-block-post-template hr,
-.wp-block-post-content .wp-block-separator {
+.wp-block-query .wp-block-post-template .post-list-separator,
+.wp-block-post-content .post-list-separator {
   border: none;
-  border-bottom: 1px solid var(--wp--preset--color--font-primary);
-  margin-bottom: 30px;
-  margin-top: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 45px;
+  margin-top: 45px;
 }
 
 .wp-block-post-navigation-link {
