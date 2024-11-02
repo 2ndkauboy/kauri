@@ -518,7 +518,7 @@
 			},
 			"core/post-content": {
 				"spacing": {
-					"blockGap": "30px",
+					"blockGap": "0",
 					"padding": {
 						"bottom": "30px"
 					}
@@ -578,6 +578,26 @@
 					"fontSize": "2rem",
 					"lineHeight": "1.3",
 					"textDecoration": "none"
+				}
+			},
+			"core/pullquote": {
+				"border": {
+					"bottom": {
+						"style": "none",
+						"width": "0px"
+					},
+					"left": {
+						"style": "none",
+						"width": "0px"
+					},
+					"right": {
+						"style": "none",
+						"width": "0px"
+					},
+					"top": {
+						"style": "none",
+						"width": "0px"
+					}
 				}
 			},
 			"core/query-title": {

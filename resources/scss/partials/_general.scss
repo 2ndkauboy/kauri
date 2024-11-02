@@ -11,14 +11,21 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
   }
 
-  ul, ol {
-    margin: 0 0 30px 22px;
-    padding: 0;
-    line-height: 1.8;
-  }
+  :root & {
+    ul, ol {
+      margin: 0 0 30px 22px;
+      padding: 0;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
 
-  ul li {
-    list-style-type: square;
+    ol.wp-block-latest-comments {
+      margin-left: unset;
+    }
+
+    ul li {
+      list-style-type: square;
+    }
   }
 
   p {
@@ -78,7 +85,7 @@ a {
     margin: 0.7em 0 0.7em;
   }
 
-  blockquote {
+  blockquote.wp-block-quote {
     margin: 0 0 1.875rem;
     padding: 1.25rem 1.25rem 1.25rem 1.875rem;
     border-left: 6px solid var(--wp--preset--color--font-primary);
@@ -173,5 +180,57 @@ a {
     margin: 0 0 1.875rem 0;
     font-size: 1.045rem;
     line-height: 1.4;
+  }
+
+  .wp-block-cover-image-text,
+  .wp-block-cover-text,
+  section.wp-block-cover-image h2 {
+    color: #fff;
+    a {
+      color: #fff;
+      &:active,
+      &:focus,
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  :where(.wp-block-cover-image:not(.has-text-color)),
+  :where(.wp-block-cover:not(.has-text-color)) {
+    color: #fff
+  }
+
+  :where(.wp-block-cover-image.is-light:not(.has-text-color)),
+  :where(.wp-block-cover.is-light:not(.has-text-color)) {
+    color: #000
+  }
+
+  :where(.wp-block-cover h1:not(.has-text-color)),
+  :where(.wp-block-cover h2:not(.has-text-color)),
+  :where(.wp-block-cover h3:not(.has-text-color)),
+  :where(.wp-block-cover h4:not(.has-text-color)),
+  :where(.wp-block-cover h5:not(.has-text-color)),
+  :where(.wp-block-cover h6:not(.has-text-color)),
+  :where(.wp-block-cover p:not(.has-text-color)) {
+    color: inherit
+  }
+
+  :where(.wp-block-image figcaption) {
+     text-align: center;
+   }
+
+  .wp-block-table {
+    margin: 0 0 1em;
+
+    table {
+      margin: 10px 0 30px;
+    }
+
+    :where(figcaption) {
+      color: #555;
+      font-size: 13px;
+      text-align: center
+    }
   }
 }
