@@ -49,3 +49,19 @@
     left: 0;
   }
 }
+
+.wp-block-query-pagination-previous,
+.wp-block-query-pagination-next {
+  display: inline-block;
+  padding: 7px 12px;
+  background: var(--wp--preset--color--background-quarternary);
+  color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  &:hover,
+  &:active {
+    background: var(--wp--preset--color--social-icons-background-hover);
+  }
+}
